@@ -23,7 +23,11 @@ async def start(c, m, cb=False):
 💡 ** I am Telegram File Store Bot**
 
 `You can store your Telegram Media for permanent Link!`
-Join Our Movie Group :@shapeoutdiscussion
+Hello,Stranger 
+If Your Looking For This Bot..!!,Make Your Own ,This Bot is Reserved
+
+
+**Join Our Movie Group** :**@shapeoutdiscussion**
                       
 
 
