@@ -3,7 +3,7 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.errors import UserNotParticipant
 OWNER_ID = os.environ.get('OWNER_ID')
-UPDATE_CHANNEL = os.environ.get('UPDATE_CHANNEL', '')
+UPDATE_CHANNEL = int(os.environ.get('UPDATE_CHANNEL', ''))
 DB_CHANNEL_ID = os.environ.get("DB_CHANNEL_ID")
 
 
