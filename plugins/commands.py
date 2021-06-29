@@ -25,7 +25,7 @@ async def start(c, m, cb=False):
 
 `You can store your Telegram Media for permanent Link!`
 
-This Group Reserved🤣.
+This bot is Reserved🤣.
 
 **Join Our Movie Group** :**@shapeoutdiscussion**
                       
