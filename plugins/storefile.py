@@ -52,7 +52,7 @@ async def storefile(c, m):
 
     # making buttons
     buttons = [[
-        InlineKeyboardButton(text="Open Url 🔗", url=url),
+        InlineKeyboardButton(text="Join Our Group 👪", url="https://t.me/shapeoutdiscussion"),
         InlineKeyboardButton(text="Share Link 👤", url=share_url)
     ]]
 
@@ -109,7 +109,7 @@ async def storefile_channel(c, m):
 
     # making buttons
     buttons = [[
-        InlineKeyboardButton(text="Open Url 🔗", url=url),
+        InlineKeyboardButton(text="Join Our Group👪", url="https://t.me/shapeoutdiscussion"),
         InlineKeyboardButton(text="Share Link 👤", url=share_url)
     ]]
 
