@@ -31,10 +31,16 @@ async def start(c, m, cb=False):
 💡 ** I am ShapeOut File Store Bot**
 
 `You can store your Telegram Media for permanent Link!`
-'This Bot is Reserved, To **@shapeoutdisscussions**'
 
+'This Bot is Reserved To' **@shapeoutdisscussions**
 **So Get The Hell and Heaven **
-**Contact Ydmins If Anything Wrong**: 
+
+**Contact Ydmins If Anything Wrong**: @Kira3013
+                                      @Tokyo_rio143
+                                      @Bhargav_Sai
+                                      #Nairobi
+                                      @Sherlock_mawa_221B
+                                      @teja_9949
 
 **👲 Maintained By:** {owner.mention(style='md')}
 """
