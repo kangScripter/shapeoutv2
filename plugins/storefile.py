@@ -47,8 +47,8 @@ async def storefile(c, m):
 
     # making buttons
     buttons = [[
-        InlineKeyboardButton(text="Join Our Group", url="https://t.me/shapeoutdiscussion"),
-        InlineKeyboardButton(text="Share Link 👤", url=share_url)
+        InlineKeyboardButton(text="🔰Join Our Group🔰", url="https://t.me/shapeoutdiscussion"),
+        InlineKeyboardButton(text="🔰Join Our Channel🔰", url="https://t.me/joinchat/QeUi9jER57VmZTM9")
         ],[
         InlineKeyboardButton(text="Delete 🗑", callback_data=f"delete+{msg.message_id}")
     ]]
@@ -102,8 +102,8 @@ async def storefile_channel(c, m):
 
     # making buttons
     buttons = [[
-        InlineKeyboardButton(text="Join Our Group👥", url="https://t.me/shapeoutdiscussion"),
-        InlineKeyboardButton(text="Share Link 👤", url=share_url)
+        InlineKeyboardButton(text="🔰Join Our Group🔰", url="https://t.me/shapeoutdiscussion"),
+        InlineKeyboardButton(text="🔰Join Our Channel🔰", url="https://t.me/joinchat/QeUi9jER57VmZTM9")
     ]]
 
     # Editing and adding the buttons
