@@ -28,10 +28,13 @@ async def start(c, m, cb=False):
     # start text
     text = f"""Hey! {m.from_user.mention(style='md')}
 
-💡 ** I am Telegram File Store Bot**
+💡 ** I am ShapeOut File Store Bot**
 
 `You can store your Telegram Media for permanent Link!`
+'This Bot is Reserved, To **@shapeoutdisscussions**'
 
+**So Get The Hell and Heaven **
+**Contact Ydmins If Anything Wrong**: 
 
 **👲 Maintained By:** {owner.mention(style='md')}
 """
