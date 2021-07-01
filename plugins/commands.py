@@ -38,7 +38,7 @@ async def start(c, m, cb=False):
 **Contact Ydmins If Anything Wrong**: @Kira3013
                                       @Tokyo_rio143
                                       @Bhargav_Sai
-                                      #Nairobi
+                                      @Nairobi12345
                                       @Sherlock_mawa_221B
                                       @teja_9949
 
