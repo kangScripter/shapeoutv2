@@ -32,9 +32,7 @@ async def storefile(c, m):
     text += f"__👁 User Name:__ @{m.from_user.username}\n\n" if m.from_user.username else ""
     text += f"__👤 User Id:__ `{m.from_user.id}`\n\n"
     text += f"__💬 DC ID:__ {m.from_user.dc_id}\n\n" if m.from_user.dc_id else ""
-    text += f"https://t.me/{bot.username}?start={base64_string}"
-
-   
+ 
     # if databacase channel exist forwarding message to channel
     if DB_CHANNEL_ID:
         msg = await m.copy(int(DB_CHANNEL_ID))
@@ -45,7 +43,7 @@ async def storefile(c, m):
     base64_string = await encode_string(f"{m.chat.id}_{msg.message_id}")
     url = f"https://t.me/{bot.username}?start={base64_string}"
     txt = urllib.parse.quote(text.replace('--', ''))
-    share_url = f"tg://share?url={txt}File%20Link%20👉%20{url}"
+    share_url = f"tg://share?url=File%20Link%20👉%20{url}"
 
     # making buttons
     buttons = [[
