@@ -1,6 +1,5 @@
 import os
 import urllib
-import pyperclip
 from .commands import encode_string
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
