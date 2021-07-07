@@ -1,5 +1,6 @@
 import os
 import urllib
+import pyperclip
 from .commands import encode_string
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
@@ -32,7 +33,7 @@ async def storefile(c, m):
     text += f"__👁 User Name:__ @{m.from_user.username}\n\n" if m.from_user.username else ""
     text += f"__👤 User Id:__ `{m.from_user.id}`\n\n"
     text += f"__💬 DC ID:__ {m.from_user.dc_id}\n\n" if m.from_user.dc_id else ""
-    text += f"__📎 Copy Url:__ "https://t.me/{bot.username}?start={base64_string}""
+   
     # if databacase channel exist forwarding message to channel
     if DB_CHANNEL_ID:
         msg = await m.copy(int(DB_CHANNEL_ID))
@@ -50,7 +51,7 @@ async def storefile(c, m):
         InlineKeyboardButton(text="🔰Join Our Group🔰", url="https://t.me/shapeoutdiscussion"),
         InlineKeyboardButton(text="🔰Join Our Channel🔰", url="https://t.me/joinchat/QeUi9jER57VmZTM9")
         ],[
-        InlineKeyboardButton(text="Open Url 📤", url="url"),
+        InlineKeyboardButton(text="Share Url 📤", url="share_url"),
         InlineKeyboardButton(text="Delete 🗑", callback_data=f"delete+{msg.message_id}")
     ]]
 
