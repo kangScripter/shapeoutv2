@@ -50,7 +50,7 @@ async def storefile(c, m):
         InlineKeyboardButton(text="🔰Join Our Group🔰", url="https://t.me/shapeoutdiscussion"),
         InlineKeyboardButton(text="🔰Join Our Channel🔰", url="https://t.me/joinchat/QeUi9jER57VmZTM9")
         ],[
-        InlineKeyboardButton(text="Share Url 📤", url="share_url"),
+        InlineKeyboardButton(text="Share Url 📤", url=share_url),
         InlineKeyboardButton(text="Delete 🗑", callback_data=f"delete+{msg.message_id}")
     ]]
 
